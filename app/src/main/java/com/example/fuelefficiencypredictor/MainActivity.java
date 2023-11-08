@@ -45,33 +45,33 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 sv.scrollTo( sv.getBottom(),0);
-                float cylindersVal = Float.parseFloat(cylinders.getText().toString());
-                float displacementVal = Float.parseFloat(displacement.getText().toString());
-                float horsePowerVal = Float.parseFloat(horsePower.getText().toString());
-                float weightVal = Float.parseFloat(weight.getText().toString());
-                float accelrationVal = Float.parseFloat(accelration.getText().toString());
-                float modelYearVal = Float.parseFloat(modelYear.getText().toString());
-                float originA = 0;
-                float originB = 0;
-                float originC = 0;
-                switch (origin.getSelectedItemPosition())
-                {
-                    case 0:
-                        originA = 1;
-                        originB = 0;
-                        originC = 0;
-                        break;
-                    case 1:
-                        originA = 0;
-                        originB = 1;
-                        originC = 0;
-                        break;
-                    case 2:
-                        originA = 0;
-                        originB = 0;
-                        originC = 1;
-                        break;
-                }
+//                float cylindersVal = Float.parseFloat(cylinders.getText().toString());
+//                float displacementVal = Float.parseFloat(displacement.getText().toString());
+//                float horsePowerVal = Float.parseFloat(horsePower.getText().toString());
+//                float weightVal = Float.parseFloat(weight.getText().toString());
+//                float accelrationVal = Float.parseFloat(accelration.getText().toString());
+//                float modelYearVal = Float.parseFloat(modelYear.getText().toString());
+//                float originA = 0;
+//                float originB = 0;
+//                float originC = 0;
+//                switch (origin.getSelectedItemPosition())
+//                {
+//                    case 0:
+//                        originA = 1;
+//                        originB = 0;
+//                        originC = 0;
+//                        break;
+//                    case 1:
+//                        originA = 0;
+//                        originB = 1;
+//                        originC = 0;
+//                        break;
+//                    case 2:
+//                        originA = 0;
+//                        originB = 0;
+//                        originC = 1;
+//                        break;
+//                }
             }
         });
     }
